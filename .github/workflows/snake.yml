@@ -1,0 +1,73 @@
+name: Generate contribution snake
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contribution-snake-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.repository == 'vanphuoc0443/vanphuoc0443' && github.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the selected branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Generate light and dark animations
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: vanphuoc0443
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/github-snake.svg?palette=github-light&color_snake=%230284c7
+            assets/github-snake-dark.svg?palette=github-dark&color_snake=%2338bdf8
+
+      - name: Add the generated animations to the profile
+        shell: python
+        run: |
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          for filename in ("assets/github-snake.svg", "assets/github-snake-dark.svg"):
+              ET.parse(filename)
+
+          path = Path("README.md")
+          text = path.read_text(encoding="utf-8")
+          start, end = "<!-- SNAKE:START -->", "<!-- SNAKE:END -->"
+          if text.count(start) != 1 or text.count(end) != 1:
+              raise SystemExit("README.md must contain exactly one pair of SNAKE markers.")
+          before, remaining = text.split(start, 1)
+          if end not in remaining:
+              raise SystemExit("SNAKE markers are in the wrong order.")
+          _, after = remaining.split(end, 1)
+          picture = '''
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+            <img src="./assets/github-snake.svg" alt="Snake animation of my GitHub contributions" width="100%" />
+          </picture>
+          '''
+          path.write_text(before + start + "\n" + picture.strip() + "\n" + end + after, encoding="utf-8")
+
+      - name: Save the animations on the selected branch
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- README.md assets/github-snake.svg assets/github-snake-dark.svg
+          if git diff --cached --quiet; then
+            echo 'The contribution animation is already up to date.'
+            exit 0
+          fi
+          git commit -m 'chore: update contribution snake'
+          git push origin "HEAD:$TARGET_BRANCH"
