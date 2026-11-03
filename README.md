@@ -74,7 +74,10 @@
 <h2 id="activity">Activity</h2>
 
 <!-- SNAKE:START -->
-<p><a href="https://github.com/vanphuoc0443?tab=overview">View my contribution history on GitHub</a></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+  <img src="./assets/github-snake.svg" alt="Snake animation of my GitHub contributions" width="100%" />
+</picture>
 <!-- SNAKE:END -->
 
 <p align="center">
