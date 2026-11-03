@@ -21,10 +21,8 @@ Phần nội dung được biên tập theo [humanizer của blader](https://git
 ```text
 README.md
 assets/header.svg
-assets/project-cinema.svg
-assets/project-todo.svg
-assets/project-web.svg
-assets/project-android.svg
+assets/project-quiz.svg
+assets/project-traceweaver.svg
 .github/workflows/snake.yml
 ```
 
@@ -52,9 +50,9 @@ Mở [README Generator](https://rahuldkjain.github.io/github-profile-readme-gene
 | Mục | Nội dung |
 | --- | --- |
 | Name | Nguyễn Văn Phước |
-| Tagline | Web applications with React and Node.js. Android with Kotlin. |
+| Tagline | Backend development with Node.js and Express. Android with Kotlin. |
 | GitHub username | vanphuoc0443 |
-| Skills | TypeScript, JavaScript, React, Node.js, Express, MongoDB, Kotlin, Android, Java, JavaFX, MySQL, HTML, CSS |
+| Skills | JavaScript, Node.js, Express, MongoDB, Kotlin, Android, Java, JavaFX, MySQL, HTML, CSS |
 | Project links | Các liên kết ở phần Selected projects trong README |
 | Email, LinkedIn, blog, vị trí | Để trống cho đến khi bạn muốn công khai thông tin này |
 

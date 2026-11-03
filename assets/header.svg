@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="245" viewBox="0 0 1200 245" role="img" aria-labelledby="title desc">
   <title id="title">Nguyễn Văn Phước</title>
-  <desc id="desc">React and Node.js web applications, Kotlin Android and Java desktop projects. GitHub: vanphuoc0443.</desc>
+  <desc id="desc">Node.js and Express backend development, Kotlin Android and Java. GitHub: vanphuoc0443.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0f172a"/>
@@ -16,8 +16,8 @@
   <g font-family="Segoe UI, Arial, sans-serif">
     <text x="48" y="48" font-size="13" letter-spacing="2.5" fill="#7dd3fc">VANPHUOC0443 / GITHUB</text>
     <text x="45" y="121" font-size="59" font-weight="700" letter-spacing="-1.5" fill="#f8fafc">Nguyễn Văn Phước</text>
-    <text x="48" y="164" font-size="24" fill="#cbd5e1">Web applications &amp; Android</text>
-    <text x="48" y="211" font-size="13" letter-spacing="2.5" fill="#7dd3fc">REACT / NODE.JS / KOTLIN / JAVA</text>
+    <text x="48" y="164" font-size="24" fill="#cbd5e1">Backend development &amp; Android</text>
+    <text x="48" y="211" font-size="13" letter-spacing="2.5" fill="#7dd3fc">NODE.JS / EXPRESS / KOTLIN / JAVA</text>
   </g>
   <g transform="translate(875 38) scale(.85)" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <rect width="255" height="195" rx="16" fill="#0b1220" stroke="#334155"/>
