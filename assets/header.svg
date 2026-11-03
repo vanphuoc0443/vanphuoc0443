@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="245" viewBox="0 0 1200 245" role="img" aria-labelledby="title desc">
   <title id="title">Nguyễn Văn Phước</title>
   <desc id="desc">React and Node.js web applications, Kotlin Android and Java desktop projects. GitHub: vanphuoc0443.</desc>
   <defs>
@@ -10,19 +10,16 @@
       <path d="M40 0H0V40" fill="none" stroke="#7dd3fc" stroke-opacity="0.055"/>
     </pattern>
   </defs>
-  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
-  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
-  <path d="M0 358H1200" stroke="#38bdf8" stroke-width="4"/>
+  <rect width="1200" height="245" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="245" rx="20" fill="url(#grid)"/>
+  <path d="M22 244H1178" stroke="#38bdf8" stroke-opacity=".55" stroke-width="2"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <rect x="60" y="53" width="184" height="30" rx="15" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.35"/>
-    <circle cx="78" cy="68" r="4" fill="#38bdf8"/>
-    <text x="92" y="73" font-size="13" letter-spacing="1.5" fill="#7dd3fc">VANPHUOC0443</text>
-    <text x="58" y="158" font-size="57" font-weight="700" letter-spacing="-1.5" fill="#f8fafc">Nguyễn Văn Phước</text>
-    <text x="61" y="204" font-size="23" fill="#cbd5e1">Web applications &amp; Android</text>
-    <text x="61" y="278" font-size="15" letter-spacing="2.5" fill="#7dd3fc">REACT / NODE.JS / KOTLIN / JAVA</text>
-    <text x="61" y="311" font-size="15" fill="#94a3b8">github.com/vanphuoc0443</text>
+    <text x="48" y="48" font-size="13" letter-spacing="2.5" fill="#7dd3fc">VANPHUOC0443 / GITHUB</text>
+    <text x="45" y="121" font-size="59" font-weight="700" letter-spacing="-1.5" fill="#f8fafc">Nguyễn Văn Phước</text>
+    <text x="48" y="164" font-size="24" fill="#cbd5e1">Web applications &amp; Android</text>
+    <text x="48" y="211" font-size="13" letter-spacing="2.5" fill="#7dd3fc">REACT / NODE.JS / KOTLIN / JAVA</text>
   </g>
-  <g transform="translate(862 83)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(875 38) scale(.85)" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <rect width="255" height="195" rx="16" fill="#0b1220" stroke="#334155"/>
     <path d="M0 38H255" stroke="#334155"/>
     <circle cx="20" cy="19" r="4" fill="#64748b"/>

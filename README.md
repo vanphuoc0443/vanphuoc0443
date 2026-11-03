@@ -1,23 +1,44 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Nguyễn Văn Phước: web applications, Android and Java desktop projects" width="100%" />
+  <img src="./assets/header.svg" alt="Nguyễn Văn Phước: web applications and Android" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=3200&amp;pause=1200&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=680&amp;height=48&amp;lines=Hi%2C+I%27m+Phuoc.;Web+apps+with+React+and+Node.js.;Android+with+Kotlin+and+Compose.&amp;repeat=true" alt="Hi, I'm Phuoc. Web apps with React and Node.js. Android with Kotlin and Compose." width="680" /></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=19&amp;duration=3200&amp;pause=1200&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=680&amp;height=42&amp;lines=Hi%2C+I%27m+Phuoc.;Web+apps+with+React+and+Node.js.;Android+with+Kotlin+and+Compose.&amp;repeat=true" alt="Hi, I'm Phuoc. Web apps with React and Node.js. Android with Kotlin and Compose." width="680" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/vanphuoc0443?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_projects-0F172A?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore my projects" /></a>
-  <a href="https://github.com/vanphuoc0443/CinemaTicketBooking"><img src="https://img.shields.io/badge/Featured-Cinema_Ticket_Booking-38BDF8?style=for-the-badge&amp;labelColor=0F172A" alt="Featured project: Cinema Ticket Booking" /></a>
+  <a href="#selected-projects">Projects</a> &nbsp; / &nbsp;
+  <a href="#tech-stack">Tech stack</a> &nbsp; / &nbsp;
+  <a href="#activity">Activity</a> &nbsp; / &nbsp;
+  <a href="https://github.com/vanphuoc0443?tab=repositories">All repositories</a>
 </p>
 
-## A little about me
+<p>I'm Phước. I build web applications with React, TypeScript, and Node.js, and Android apps with Kotlin. I also work with Java and JavaFX.</p>
 
-I'm Phước. I build web applications with React, TypeScript, and Node.js, and Android apps with Kotlin. I also work with Java and JavaFX.
+<p>My public work includes a cinema booking system, a Node.js todo app, and a web learning site. Some of my React and Android projects are private; the projects below are open to explore.</p>
 
-My public work includes a collaborative cinema booking system, a Node.js todo app, and a web learning site. Some of my React and Android projects are private; the repositories below are open to explore.
+<h2 id="selected-projects">Selected projects</h2>
 
-## Tools I work with
+<p align="center">
+  <a href="https://github.com/vanphuoc0443/CinemaTicketBooking"><img src="./assets/project-cinema.svg" alt="Cinema Ticket Booking: collaborative JavaFX and MySQL application" width="400" /></a>
+  <a href="https://github.com/vanphuoc0443/HIT_NODEJS_TodoApp"><img src="./assets/project-todo.svg" alt="Node.js Todo App: collaborative Express and MongoDB project" width="400" /></a>
+  <a href="https://github.com/vanphuoc0443/HIT_WEB"><img src="./assets/project-web.svg" alt="HIT Web: searchable web lessons and an in-browser code editor" width="400" /></a>
+  <a href="https://github.com/vanphuoc0443/HIT_Android"><img src="./assets/project-android.svg" alt="Kotlin Practice: Android calculator and fragment navigation exercises" width="400" /></a>
+</p>
+
+<details>
+  <summary>Project details and collaborators</summary>
+  <ul>
+    <li><a href="https://github.com/vanphuoc0443/CinemaTicketBooking">Cinema Ticket Booking</a>, built with <a href="https://github.com/minh656512-debug">minh656512-debug</a>: customer and admin apps, temporary seat locks, booking transactions, showtime conflict checks, and movie details from OMDb.</li>
+    <li><a href="https://github.com/vanphuoc0443/HIT_NODEJS_TodoApp">Node.js Todo App</a>, a collaborative project with <a href="https://github.com/HuyHoang3425">HuyHoang3425</a>: input validation, access and refresh tokens, role permissions, and Cloudinary uploads.</li>
+    <li><a href="https://github.com/vanphuoc0443/HIT_WEB">HIT Web</a>: a 14-week HTML, CSS, and JavaScript roadmap, searchable lessons, light and dark themes, and pages generated from Markdown.</li>
+    <li><a href="https://github.com/vanphuoc0443/HIT_Android">Kotlin Practice</a>: Android Views and XML exercises with calculator logic, theme switching, and fragment-based login and password recovery screens.</li>
+  </ul>
+</details>
+
+<h2 id="tech-stack">Tech stack</h2>
+
+<h3>Web</h3>
 
 <p>
   <a href="https://skillicons.dev">
@@ -28,6 +49,10 @@ My public work includes a collaborative cinema booking system, a Node.js todo ap
   </a>
 </p>
 
+<p>I use Vite for React projects and Playwright for browser tests.</p>
+
+<h3>Android &amp; Java</h3>
+
 <p>
   <a href="https://skillicons.dev">
     <picture>
@@ -37,40 +62,19 @@ My public work includes a collaborative cinema booking system, a Node.js todo ap
   </a>
 </p>
 
-On Android, I've used Jetpack Compose, Room, Hilt, and WorkManager. My Java desktop work uses JavaFX, MySQL, and Maven. I also use Vite for React projects and Playwright for browser tests.
+<p>On Android, I've used Jetpack Compose, Room, Hilt, and WorkManager. My desktop work uses JavaFX, MySQL, and Maven.</p>
 
-## Selected projects
+<details>
+  <summary>Earlier practice</summary>
+  <p>My earlier repositories cover HTML/CSS layouts and Java fundamentals, including arrays, methods, and basic account operations.</p>
+</details>
 
-### [Cinema Ticket Booking](https://github.com/vanphuoc0443/CinemaTicketBooking)
-
-A cinema booking app I built with [minh656512-debug](https://github.com/minh656512-debug). Customers can browse movies, select seats, book tickets, and review their booking history. A separate admin app manages movies and showtimes.
-
-The code includes temporary seat locks, booking transactions, and checks for scheduling conflicts. Both apps share a MySQL database, with movie details from the OMDb API.
-
-`Java` `JavaFX` `MySQL` `Maven` `OMDb API`
-
-### [Node.js Todo App](https://github.com/vanphuoc0443/HIT_NODEJS_TodoApp)
-
-A collaborative Express and MongoDB project with [HuyHoang3425](https://github.com/HuyHoang3425). Alongside todo management, its backend includes login, access and refresh tokens, role and permission management, input validation, and file uploads through Cloudinary.
-
-`JavaScript` `Node.js` `Express` `MongoDB` `JWT` `Cloudinary`
-
-### [HIT Web](https://github.com/vanphuoc0443/HIT_WEB)
-
-A web learning site with a 14-week roadmap covering HTML, CSS, and JavaScript. The site includes lesson search, light and dark themes, and an editor for trying code examples in the browser. Python scripts generate the lesson pages from Markdown.
-
-`HTML` `CSS` `JavaScript` `Python`
-
-## Practice repositories
-
-[HIT Android](https://github.com/vanphuoc0443/HIT_Android) contains my Kotlin exercises, including calculator logic, theme switching, and fragment-based authentication screens. My earlier repositories cover HTML/CSS layouts and Java fundamentals such as arrays, methods, and basic account operations.
-
-## Contributions
+<h2 id="activity">Activity</h2>
 
 <!-- SNAKE:START -->
-[View my contribution history](https://github.com/vanphuoc0443?tab=overview)
+<p><a href="https://github.com/vanphuoc0443?tab=overview">View my contribution history on GitHub</a></p>
 <!-- SNAKE:END -->
 
 <p align="center">
-  <a href="https://github.com/vanphuoc0443?tab=repositories">Browse all repositories</a>
+  <a href="https://github.com/vanphuoc0443?tab=repositories">Explore the code</a>
 </p>

@@ -21,6 +21,10 @@ Phần nội dung được biên tập theo [humanizer của blader](https://git
 ```text
 README.md
 assets/header.svg
+assets/project-cinema.svg
+assets/project-todo.svg
+assets/project-web.svg
+assets/project-android.svg
 .github/workflows/snake.yml
 ```
 
@@ -62,3 +66,12 @@ Generator không tự nhập được hướng dẫn này. Khi tạo lại READM
 - Icon: sửa danh sách `i=` trong cả hai URL của `skill-icons`. Hai URL dùng cùng danh sách, khác `theme=light` và `theme=dark`.
 - Snake: sửa `color_snake` trong workflow, rồi chạy lại. `%23` là ký tự `#` đã mã hóa trong URL.
 - Banner: chỉnh `assets/header.svg`.
+- Thẻ dự án: chỉnh các file `assets/project-*.svg`. Các file này là thẻ giới thiệu, không phải ảnh chụp giao diện ứng dụng.
+
+## Tham khảo bố cục
+
+- [KhuongSpring](https://github.com/KhuongSpring): giới thiệu ngắn và nhóm icon công nghệ.
+- [antfu](https://github.com/antfu): điều hướng gọn, dễ mở các phần liên quan.
+- [DenverCoder1](https://github.com/DenverCoder1): đặt dự án nổi bật thành nhóm trực quan.
+
+Nội dung, thông tin cá nhân và thẻ dự án được viết riêng cho `vanphuoc0443`. Không dùng tài khoản xã hội, chức danh hoặc thành tích từ các profile tham khảo. Không thêm thẻ stats vì các endpoint đã kiểm tra trả về lỗi hoặc hết thời gian chờ.
