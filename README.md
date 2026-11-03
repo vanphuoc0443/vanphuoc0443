@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Nguyễn Văn Phước: web applications and Android" width="100%" />
-</p>
-
-<p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=19&amp;duration=3200&amp;pause=1200&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=680&amp;height=42&amp;lines=Hi%2C+I%27m+Phuoc.;Backend+with+Node.js+and+Express.;Android+with+Kotlin+and+Compose.&amp;repeat=true" alt="Hi, I'm Phuoc. Backend with Node.js and Express. Android with Kotlin and Compose." width="680" /></a>
 </p>
 
