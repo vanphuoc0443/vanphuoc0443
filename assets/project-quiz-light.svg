@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-labelledby="title desc">
+<title id="title">BE-Quiz-Learning</title><desc id="desc">Team project with HIT-PRODUCT. Flashcards, quizzes and adaptive study. Authentication and queued email jobs. NODE.JS / EXPRESS / MONGODB / REDIS</desc>
+<defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r=".65" fill="#D9DCD7"/></pattern></defs>
+<rect width="600" height="270" fill="#FAFAF7"/><rect width="600" height="270" fill="url(#dots)"/>
+<g fill="none" stroke="#A8B0A8" stroke-width="1"><path d="M8 24V8h16m552 0h16v16M8 246v16h16m552 0h16v-16"/><path d="M28 55h544M28 208h544" stroke-dasharray="2 5"/></g>
+<g font-family="Consolas, Cascadia Mono, Menlo, monospace">
+<circle cx="30" cy="31" r="3" fill="#0F766E"/>
+<text x="43" y="35" font-size="12" letter-spacing="1.2" fill="#535C57">P-01 :: TEAM PROJECT</text>
+<text x="570" y="35" font-size="12" text-anchor="end" fill="#0F766E">SOURCE ↗</text>
+<text x="29" y="96" font-size="29" font-weight="700" letter-spacing="-1" fill="#16231D">BE-Quiz-Learning</text>
+<text x="30" y="123" font-size="12" letter-spacing="1.5" fill="#0F766E">HIT-PRODUCT</text>
+<text x="30" y="160" font-size="20" fill="#16231D">Flashcards, quizzes and adaptive study.</text>
+<text x="30" y="187" font-size="20" fill="#535C57">Authentication and queued email jobs.</text>
+<text x="30" y="239" font-size="12" letter-spacing=".5" fill="#0F766E">NODE.JS / EXPRESS / MONGODB / REDIS</text>
+</g>
+<g transform="translate(515 73)" fill="none" stroke="#0F766E" stroke-width="1.6" stroke-linecap="square" stroke-linejoin="miter"><rect x="12" y="5" width="34" height="43"/><path d="m20 19 3 3 5-7m-8 21 3 3 5-7M33 19h6M33 35h6"/></g>
+</svg>

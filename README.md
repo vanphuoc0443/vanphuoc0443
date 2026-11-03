@@ -16,8 +16,18 @@
 <h2 id="selected-projects">Selected projects</h2>
 
 <p align="center">
-  <a href="https://github.com/HIT-Product/BE-Quiz-Learning"><img src="./assets/project-quiz.svg" alt="BE-Quiz-Learning: HIT-Product backend API for flashcards, quizzes and learning sessions" width="400" /></a>
-  <a href="https://github.com/HaUI-Tam-Thai-Tu/TraceWeaver"><img src="./assets/project-traceweaver.svg" alt="TraceWeaver: a team project for reconstructing request journeys and investigating incidents from logs" width="400" /></a>
+  <a href="https://github.com/HIT-Product/BE-Quiz-Learning">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-quiz.svg" />
+      <img src="./assets/project-quiz-light.svg" alt="BE-Quiz-Learning: HIT-Product backend API for flashcards, quizzes and learning sessions" width="400" />
+    </picture>
+  </a>
+  <a href="https://github.com/HaUI-Tam-Thai-Tu/TraceWeaver">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-traceweaver.svg" />
+      <img src="./assets/project-traceweaver-light.svg" alt="TraceWeaver: a team project for reconstructing request journeys and investigating incidents from logs" width="400" />
+    </picture>
+  </a>
 </p>
 
 <details>

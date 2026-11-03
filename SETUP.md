@@ -20,9 +20,10 @@ Phần nội dung được biên tập theo [humanizer của blader](https://git
 
 ```text
 README.md
-assets/header.svg
 assets/project-quiz.svg
+assets/project-quiz-light.svg
 assets/project-traceweaver.svg
+assets/project-traceweaver-light.svg
 .github/workflows/snake.yml
 ```
 
@@ -36,8 +37,8 @@ Workflow chỉ chạy khi bạn bấm chạy thủ công. Không có lịch cron
 
 1. Workflow cần có trên nhánh mặc định `main` để GitHub hiển thị nút chạy thủ công.
 2. Vào **Actions → Generate contribution snake → Run workflow**.
-3. Chọn đúng nhánh bạn muốn cập nhật. Lần chạy này sẽ tạo commit và push vào chính nhánh được chọn, gồm hai SVG và phần Contributions trong README. Không tạo nhánh `output`.
-4. Sau khi workflow thành công, tải lại profile. Snake xuất hiện ở mục Contributions. Trước lần chạy đầu, mục này chỉ có liên kết xem lịch sử đóng góp nên không có ảnh hỏng.
+3. Chọn đúng nhánh bạn muốn cập nhật. Lần chạy này sẽ tạo commit và push vào chính nhánh được chọn, gồm hai SVG và phần Activity trong README. Không tạo nhánh `output`.
+4. Sau khi workflow thành công, tải lại profile. Snake xuất hiện ở mục Activity và đổi ảnh theo chế độ sáng/tối của GitHub.
 
 Workflow dùng `GITHUB_TOKEN` có sẵn của GitHub Actions với quyền `contents: write` trong job tạo ảnh. Không cần tạo PAT hoặc thêm secret riêng. Nếu chính sách repository hoặc branch protection chặn commit của Actions, workflow sẽ thất bại ở bước lưu ảnh; cần xem thông báo lỗi trước khi quyết định thay đổi chính sách. Không có force push.
 
@@ -63,13 +64,13 @@ Generator không tự nhập được hướng dẫn này. Khi tạo lại READM
 - Chữ động: sửa `lines`, `color`, `duration`, `pause` trong URL `readme-typing-svg` ở README. Dùng dấu `;` để ngăn các câu.
 - Icon: sửa danh sách `i=` trong cả hai URL của `skill-icons`. Hai URL dùng cùng danh sách, khác `theme=light` và `theme=dark`.
 - Snake: sửa `color_snake` trong workflow, rồi chạy lại. `%23` là ký tự `#` đã mã hóa trong URL.
-- Banner: chỉnh `assets/header.svg`.
-- Thẻ dự án: chỉnh các file `assets/project-*.svg`. Các file này là thẻ giới thiệu, không phải ảnh chụp giao diện ứng dụng.
+- Thẻ dự án: chỉnh các file `assets/project-*.svg`. File có hậu tố `-light` dùng cho nền sáng, file còn lại dùng cho nền tối. Các file này là thẻ giới thiệu, không phải ảnh chụp giao diện ứng dụng.
 
 ## Tham khảo bố cục
 
 - [KhuongSpring](https://github.com/KhuongSpring): giới thiệu ngắn và nhóm icon công nghệ.
 - [antfu](https://github.com/antfu): điều hướng gọn, dễ mở các phần liên quan.
 - [DenverCoder1](https://github.com/DenverCoder1): đặt dự án nổi bật thành nhóm trực quan.
+- [HoangTechCS-AIE](https://github.com/HoangTechCS-AIE/HoangTechCS-AIE): phong cách bản vẽ kỹ thuật cho phần dự án, với nền chấm, monospace, dấu góc và hai bảng màu sáng/tối. Thẻ được vẽ riêng với nội dung của BE-Quiz-Learning và TraceWeaver.
 
 Nội dung, thông tin cá nhân và thẻ dự án được viết riêng cho `vanphuoc0443`. Không dùng tài khoản xã hội, chức danh hoặc thành tích từ các profile tham khảo. Không thêm thẻ stats vì các endpoint đã kiểm tra trả về lỗi hoặc hết thời gian chờ.
